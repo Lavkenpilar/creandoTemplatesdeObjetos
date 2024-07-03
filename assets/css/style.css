@@ -1,0 +1,25 @@
+.articulo {
+    width: 250px;
+    padding: 10px;
+    background: green;
+}
+.articulo2 .indicador.rojo {
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+}
+.articulo2 .indicador.azul {
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:blue;
+}
+.articulo2 .agotado {
+    display: none;
+}
+.articulo2 .agotado.mostrar {
+    display: block;
+}
